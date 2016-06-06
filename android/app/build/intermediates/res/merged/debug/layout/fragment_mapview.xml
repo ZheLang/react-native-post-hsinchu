@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mapbox.mapboxsdk.views.MapView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+<!-- From: file:/home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.mapbox.mapboxsdk/mapbox-android-sdk/3.2.0/res/layout/fragment_mapview.xml -->
