@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
 var Mapbox = require('react-native-mapbox-gl');
 var mapRef = 'mapRef';
+var Sound = require('react-native-sound');
+
 import {
   AppRegistry,
   StyleSheet,
   Text,
   StatusBar,
-  View
+  View,
+  Image,
 } from 'react-native';
 
 var Mainview = React.createClass({
@@ -25,10 +28,9 @@ var Mainview = React.createClass({
         longitude: 0
       },
       outText: 'Doing Noting',
-      boolOnTop: true,
+      boolOnTop:false,
       otcontent:null,
-
-
+      boolaudioPlaying:true,
 
       annotations: [{
         coordinates: [40.7223, -73.9878],
@@ -75,32 +77,37 @@ var Mainview = React.createClass({
   {
     var outText = this.state.outText;
     var otc = this.state.otcontent;
-    var bot = this.state.boolOnTop;
-    if (this.state.boolOnTop)
-    {
-        bot = false;
-    }
-    else
-    {
-        bot = true;
-    }
+    var bot = this.state.boolOnTop ? false : true;
+    var audplay = this.state.boolaudioPlaying;
+    var talk = new Sound('./Sample.mp3' , Sound.MAIN_BUNDLE);
+
 
     if(bot)
     {
       outText = "Show Infos";
-      otc = <View style={styles.onTop}>
-            <Text>This is somthing I donnot care</Text>
-            <Text onPress = {()=>this.changeText()}> Press this to return</Text>
+      if (audplay)
+      {
+        talk.play();
+      }
+      otc = <View style={styles.onTopBG}>
+            <Text style={styles.onTopRT} onPress = {()=>this.changeText()}> Return</Text>
+            <Text style={styles.onTopStop} onPress={()=>{talk.stop();outText="Audio Stop";this.setState({outText:outText});}}> Stop Playing </Text>
+            <Image style={styles.onTopImg} source={require('./hums.jpg')}/>
+            <Text style={styles.onTopConent}>if you stare into the abyss the abyss stares back at you</Text>
             </View>
     }
     else
     {
       outText = "Doing Nothing";
       otc = null;
+      audplay = true;
+      talk.stop();
     }
-    this.setState({outText:outText});
-    this.setState({otcontent:otc});
-    this.setState({boolOnTop:bot})
+    this.setState({outText:outText,
+                   otcontent:otc,
+                   boolOnTop:bot,
+                   boolaudioPlaying:audplay,
+                  });
   },
 
 
@@ -150,13 +157,44 @@ var styles = StyleSheet.create({
   container: {
     flex: 1
   },
-  onTop: {
-    width:250,
-    height:250,
-    top:200,
-    left:100,
+  onTopBG:
+  {
+    width:380,
+    height:350,
+    top:150,
+    left:20,
     position: 'absolute',
-    backgroundColor : 'white',
+    backgroundColor : '#f7e7d1',
+  },
+  onTopRT:
+  {
+    fontSize:16,
+    textAlign:'left',
+    margin:5,
+    textAlignVertical:'top',
+  },
+  onTopStop:
+  {
+    fontSize:16,
+    textAlign:'right',
+    margin:5,
+    textAlignVertical:'top',
+  },
+  onTopConent:
+  {
+    fontSize:26,
+    fontWeight:'200',
+    textAlign:'center',
+    marginVertical:10,
+    textAlignVertical:'bottom',
+  },
+  onTopImg:
+  {
+      width: 100,
+      height: 100,
+      margin: 10,
+      alignItems:'center',
+
   },
 
 
