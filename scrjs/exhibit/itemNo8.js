@@ -14,14 +14,14 @@ var {
 } = Dimensions.get("window");
 
 
-var Item1 = React.createClass({
+var Item8 = React.createClass({
   getInitialState: function() {
     return{
-      title:'01|風是甜的',
-      subtitle: '梁任宏',
-      size:'作品尺寸: 高398 x 長220 x 寬52（公分)',
-      material:'作品材質: 不鏽鋼、烤漆、培林',
-      content:'梁任宏受邀為各地各式節慶以及公共環境製作大型的戶外裝置，呈現出其多元精準的藝術樣貌。本次展出他的〈風是甜的〉，手持巨型的甜筒冰淇淋，色彩甜美討喜，任隨大自然的風動而擺動。在後站地下道的出口即能明顯地看到這件作品揮舞雙臂，就像是在歡迎旅客來到新竹。',
+      title:'08|原來五百的家鄉在新竹',
+      subtitle: '陳浚豪',
+      size:'作品尺寸: 高300 x 長606 x 寬243（公分）',
+      material:'作品材質: 貨櫃、透明壓克力、玻璃珠、LED燈',
+      content:'計畫以新竹在地的玻璃珠材質作為創作元素,以點串成線, 線再構成面,面再構成立體的3D鈔票面額,如同層層的珠簾裝置在廿呎貨櫃 (計畫切除正面與兩個側面)之中,加上自然光的運用,讓珠簾彷若大塊假我 以文章的量化美感得以呈現在公共空間,在觀者的遠近觀察移動中,鈔票上的 圖像如群鹿、山頭、竹葉等將在具象與抽象之間轉換,期盼能創造了另一種材 質上互動性的視覺光譜。',
       playing:false,
       playPressing:false,
       stopPressing:false,
@@ -42,8 +42,10 @@ var Item1 = React.createClass({
     Orientation.addListener(this._setOrientation);
   },
 
-
 /*
+  componentWillUnmount() {
+    Orientation.removeListener(this._setOrientation);
+  },
 
   componentWillMount:function(){
     Orientation.addOrientationListener(this._orientationDidChange);
@@ -183,7 +185,7 @@ var Item1 = React.createClass({
   render: function() {
 
     const titleConfig = {
-      title:' 風是甜的 ',
+      title:' 原來五百的家鄉在新竹 ',
     };
 
     const leftButtonConfig = {
@@ -241,7 +243,7 @@ var Item1 = React.createClass({
                                     marginBottom:5,
                                     margin:15,
                                     resizeMode:'cover',
-                                    backgroundColor:'#F5FC00',}} source={require('./components/01@2x.jpg')}/>
+                                    backgroundColor:'#F5FC00',}} source={require('./components/08.jpg')}/>
                   </View>
 
                 <Text style={styles.subtitle}> {this.state.subtitle} </Text>
@@ -335,4 +337,4 @@ var styles = StyleSheet.create({
 
 });
 
-module.exports = Item1;
+module.exports = Item8;

@@ -14,14 +14,14 @@ var {
 } = Dimensions.get("window");
 
 
-var Item1 = React.createClass({
+var Item10 = React.createClass({
   getInitialState: function() {
     return{
-      title:'01|風是甜的',
-      subtitle: '梁任宏',
-      size:'作品尺寸: 高398 x 長220 x 寬52（公分)',
-      material:'作品材質: 不鏽鋼、烤漆、培林',
-      content:'梁任宏受邀為各地各式節慶以及公共環境製作大型的戶外裝置，呈現出其多元精準的藝術樣貌。本次展出他的〈風是甜的〉，手持巨型的甜筒冰淇淋，色彩甜美討喜，任隨大自然的風動而擺動。在後站地下道的出口即能明顯地看到這件作品揮舞雙臂，就像是在歡迎旅客來到新竹。',
+      title:'10|春雪後',
+      subtitle: '依現場空間而定 ',
+      size:'作品尺寸: 單個高50x長30x寬30（公分）共50個 ',
+      material:'作品材質: 竹',
+      content:'藝術家游文富的作品，以纖細的竹枝為主體，透過大量的身體勞動而完成巨型的地景藝術。這次選在新竹公園的環形舞台周圍，以白色竹枝插滿此一略為下凹的區域，像是剛下過春雪的美景，而當初春時節，現場種植在外圈的櫻花盛開，這裡將搖身變成紅白同心圓的舞台。家人親子好友前來遊玩的同時，穿梭其中，都成為這個名為〈春雪後〉的大型劇場的演員。',
       playing:false,
       playPressing:false,
       stopPressing:false,
@@ -42,8 +42,11 @@ var Item1 = React.createClass({
     Orientation.addListener(this._setOrientation);
   },
 
-
 /*
+  componentWillUnmount() {
+    Orientation.removeListener(this._setOrientation);
+  },
+
 
   componentWillMount:function(){
     Orientation.addOrientationListener(this._orientationDidChange);
@@ -183,7 +186,7 @@ var Item1 = React.createClass({
   render: function() {
 
     const titleConfig = {
-      title:' 風是甜的 ',
+      title:' 春雪後 ',
     };
 
     const leftButtonConfig = {
@@ -241,7 +244,7 @@ var Item1 = React.createClass({
                                     marginBottom:5,
                                     margin:15,
                                     resizeMode:'cover',
-                                    backgroundColor:'#F5FC00',}} source={require('./components/01@2x.jpg')}/>
+                                    backgroundColor:'#F5FC00',}} source={require('./components/10.jpg')}/>
                   </View>
 
                 <Text style={styles.subtitle}> {this.state.subtitle} </Text>
@@ -335,4 +338,4 @@ var styles = StyleSheet.create({
 
 });
 
-module.exports = Item1;
+module.exports = Item10;

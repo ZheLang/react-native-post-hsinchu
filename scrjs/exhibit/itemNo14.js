@@ -14,14 +14,14 @@ var {
 } = Dimensions.get("window");
 
 
-var Item1 = React.createClass({
+var Item14 = React.createClass({
   getInitialState: function() {
     return{
-      title:'01|風是甜的',
-      subtitle: '梁任宏',
-      size:'作品尺寸: 高398 x 長220 x 寬52（公分)',
-      material:'作品材質: 不鏽鋼、烤漆、培林',
-      content:'梁任宏受邀為各地各式節慶以及公共環境製作大型的戶外裝置，呈現出其多元精準的藝術樣貌。本次展出他的〈風是甜的〉，手持巨型的甜筒冰淇淋，色彩甜美討喜，任隨大自然的風動而擺動。在後站地下道的出口即能明顯地看到這件作品揮舞雙臂，就像是在歡迎旅客來到新竹。',
+      title:'14|時光旅行艙',
+      subtitle: '李承亮',
+      size:'作品尺寸: 高220 x 長600 x 寬170（公分）',
+      material:'作品材質: 彩色玻璃、黑鐵｀漆、木料',
+      content:'作為第二主題「歡樂派對」走向「電幻時刻」的重要節點，藝術家李承亮提出〈時光旅行艙〉，高於2公尺長6公尺的純鐵製旅行艙內，有木製的室內走道，行人可自由走入艙內，透過上方彩色玻璃向外看，藍天綠樹都染上了色彩，如同到了外太空，即將飛向充滿科幻感的「舞光十射」。',
       playing:false,
       playPressing:false,
       stopPressing:false,
@@ -44,6 +44,9 @@ var Item1 = React.createClass({
 
 
 /*
+  componentWillUnmount() {
+    Orientation.removeListener(this._setOrientation);
+  },
 
   componentWillMount:function(){
     Orientation.addOrientationListener(this._orientationDidChange);
@@ -183,7 +186,7 @@ var Item1 = React.createClass({
   render: function() {
 
     const titleConfig = {
-      title:' 風是甜的 ',
+      title:' 時光旅行艙 ',
     };
 
     const leftButtonConfig = {
@@ -241,7 +244,7 @@ var Item1 = React.createClass({
                                     marginBottom:5,
                                     margin:15,
                                     resizeMode:'cover',
-                                    backgroundColor:'#F5FC00',}} source={require('./components/01@2x.jpg')}/>
+                                    backgroundColor:'#F5FC00',}} source={require('./components/14.jpg')}/>
                   </View>
 
                 <Text style={styles.subtitle}> {this.state.subtitle} </Text>
@@ -335,4 +338,4 @@ var styles = StyleSheet.create({
 
 });
 
-module.exports = Item1;
+module.exports = Item14;

@@ -14,14 +14,14 @@ var {
 } = Dimensions.get("window");
 
 
-var Item1 = React.createClass({
+var Item6 = React.createClass({
   getInitialState: function() {
     return{
-      title:'01|風是甜的',
-      subtitle: '梁任宏',
-      size:'作品尺寸: 高398 x 長220 x 寬52（公分)',
-      material:'作品材質: 不鏽鋼、烤漆、培林',
-      content:'梁任宏受邀為各地各式節慶以及公共環境製作大型的戶外裝置，呈現出其多元精準的藝術樣貌。本次展出他的〈風是甜的〉，手持巨型的甜筒冰淇淋，色彩甜美討喜，任隨大自然的風動而擺動。在後站地下道的出口即能明顯地看到這件作品揮舞雙臂，就像是在歡迎旅客來到新竹。',
+      title:'06|吹泡泡',
+      subtitle: '林建榮',
+      size:'作品尺寸: 設置範圍依現場空間而定',
+      material:'作品材質: PVC充氣、FRP',
+      content:'林建榮擅長結合燈泡與雕塑的創作，可愛的如兒童一樣圓胖的身材，頭上點亮著渾圓而溫暖光線的燈泡，是非常親人的設計。這些小人兒即將坐在後站停車場向新竹公園必經的牆面上，將民眾引導至地景藝術展的下一個重要基地。',
       playing:false,
       playPressing:false,
       stopPressing:false,
@@ -42,8 +42,11 @@ var Item1 = React.createClass({
     Orientation.addListener(this._setOrientation);
   },
 
-
 /*
+  componentWillUnmount() {
+    Orientation.removeListener(this._setOrientation);
+  },
+
 
   componentWillMount:function(){
     Orientation.addOrientationListener(this._orientationDidChange);
@@ -183,7 +186,7 @@ var Item1 = React.createClass({
   render: function() {
 
     const titleConfig = {
-      title:' 風是甜的 ',
+      title:' 吹泡泡 ',
     };
 
     const leftButtonConfig = {
@@ -241,7 +244,7 @@ var Item1 = React.createClass({
                                     marginBottom:5,
                                     margin:15,
                                     resizeMode:'cover',
-                                    backgroundColor:'#F5FC00',}} source={require('./components/01@2x.jpg')}/>
+                                    backgroundColor:'#F5FC00',}} source={require('./components/06.jpg')}/>
                   </View>
 
                 <Text style={styles.subtitle}> {this.state.subtitle} </Text>
@@ -335,4 +338,4 @@ var styles = StyleSheet.create({
 
 });
 
-module.exports = Item1;
+module.exports = Item6;

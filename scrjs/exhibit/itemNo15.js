@@ -14,14 +14,14 @@ var {
 } = Dimensions.get("window");
 
 
-var Item1 = React.createClass({
+var Item16 = React.createClass({
   getInitialState: function() {
     return{
-      title:'01|風是甜的',
-      subtitle: '梁任宏',
-      size:'作品尺寸: 高398 x 長220 x 寬52（公分)',
-      material:'作品材質: 不鏽鋼、烤漆、培林',
-      content:'梁任宏受邀為各地各式節慶以及公共環境製作大型的戶外裝置，呈現出其多元精準的藝術樣貌。本次展出他的〈風是甜的〉，手持巨型的甜筒冰淇淋，色彩甜美討喜，任隨大自然的風動而擺動。在後站地下道的出口即能明顯地看到這件作品揮舞雙臂，就像是在歡迎旅客來到新竹。',
+      title:'15|裝置微光計畫：新竹孔廟',
+      subtitle: null,
+      size:'作品尺寸: 約80x23（公尺）',
+      material:'作品材質:電子裝置、雷射光、琉璃燈罩',
+      content:'莊志維近年致力於發展以戶外雷射光為主的大型光雕藝術，這次為新竹孔廟前廣場量身定制之〈裝置微光計畫：新竹孔廟〉於兩兩相對之路燈改裝琉璃燈罩，白天時刻陽光透過燈罩折射光線在鋪面上；而到了晚間，電子定時裝置開啟雷射光，舞動交錯劃破黑夜，讓寂靜的廣場也成了熱鬧的舞台。',
       playing:false,
       playPressing:false,
       stopPressing:false,
@@ -41,6 +41,7 @@ var Item1 = React.createClass({
   componentDidMount(){
     Orientation.addListener(this._setOrientation);
   },
+
 
 
 /*
@@ -183,7 +184,7 @@ var Item1 = React.createClass({
   render: function() {
 
     const titleConfig = {
-      title:' 風是甜的 ',
+      title:' 裝置微光計畫：新竹孔廟 ',
     };
 
     const leftButtonConfig = {
@@ -241,7 +242,7 @@ var Item1 = React.createClass({
                                     marginBottom:5,
                                     margin:15,
                                     resizeMode:'cover',
-                                    backgroundColor:'#F5FC00',}} source={require('./components/01@2x.jpg')}/>
+                                    backgroundColor:'#F5FC00',}} source={require('./components/15.jpg')}/>
                   </View>
 
                 <Text style={styles.subtitle}> {this.state.subtitle} </Text>
@@ -288,7 +289,7 @@ var styles = StyleSheet.create({
     marginHorizontal:0,
     marginTop:20,
     resizeMode:'cover',
-    marginRight:15,
+    marginRight:5,
   },
   info:{
     fontSize:12,
@@ -335,4 +336,4 @@ var styles = StyleSheet.create({
 
 });
 
-module.exports = Item1;
+module.exports = Item16;

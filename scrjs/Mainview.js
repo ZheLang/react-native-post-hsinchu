@@ -1,13 +1,30 @@
 import React from 'react';
 import {AppRegistry, Navigator, StyleSheet, Text, View} from 'react-native'
 import {Scene, Reducer, Router, Switch, TabBar, Modal, Schema, Actions} from 'react-native-router-flux'
-import NavigationDrawer from './components/NavigationDrawer'
 import Button from "react-native-button";
+
 import Welcome from './Welcome';
 import MapPage from './MapPage';
 import HomePage from './HomePage';
-import Item1 from './exhibit/itemNo1';
 import WebPage from './WebPage';
+
+import Item1 from './exhibit/itemNo1';
+import Item2 from './exhibit/itemNo2';
+import Item3 from './exhibit/itemNo3';
+import Item4 from './exhibit/itemNo4';
+import Item5 from './exhibit/itemNo5';
+import Item6 from './exhibit/itemNo6';
+import Item7 from './exhibit/itemNo7';
+import Item8 from './exhibit/itemNo8';
+import Item9 from './exhibit/itemNo9';
+import Item10 from './exhibit/itemNo10';
+import Item11 from './exhibit/itemNo11';
+import Item12 from './exhibit/itemNo12';
+import Item13 from './exhibit/itemNo13';
+import Item14 from './exhibit/itemNo14';
+import Item15 from './exhibit/itemNo15';
+
+import die from './exhibit/die';
 
 
 const styles = StyleSheet.create({
@@ -47,12 +64,27 @@ export default class Mainview extends React.Component {
         return <Router createReducer={reducerCreate} getSceneStyle={getSceneStyle}>
             <Scene key="modal" component={Modal} >
                 <Scene key="root" hideNavBar hideTabBar>
-                    <Scene key="welcome" component={Welcome} title="Welcome" initial={true} />
+                    <Scene key="welcome" component={Welcome} title="Welcome" initial={true}/>
                     <Scene key="homepage" component={HomePage} title="Home"/>
                     <Scene key="mappage" component={MapPage} title="Map"/>
-                    <Scene key='item1' component={Item1} title="Item 1"/>
                     <Scene key='webpage' component={WebPage} title="Web"/>
 
+                    <Scene key='item1' component={Item1} title="Item 1"/>
+                    <Scene key='item2' component={Item2} title="Item 2"/>
+                    <Scene key='item3' component={Item3} title="Item 3"/>
+                    <Scene key='item4' component={Item4} title="Item 4"/>
+                    <Scene key='item5' component={Item5} title="Item 5"/>
+                    <Scene key='item6' component={Item6} title="Item 6"/>
+                    <Scene key='item7' component={Item7} title="Item 7"/>
+                    <Scene key='item8' component={Item8} title="Item 8"/>
+                    <Scene key='item9' component={Item9} title="Item 9"/>
+                    <Scene key='item10' component={Item10} title="Item 10"/>
+                    <Scene key='item11' component={Item11} title="Item 11"/>
+                    <Scene key='item12' component={Item12} title="Item 12"/>
+                    <Scene key='item13' component={Item13} title="Item 13"/>
+                    <Scene key='item14' component={Item14} title="Item 14"/>
+                    <Scene key='item15' component={Item15} title="Item 15"/>
+                    <Scene key='die' component={die} title='die'/>
                 </Scene>
             </Scene>
         </Router>;

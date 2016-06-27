@@ -32,7 +32,7 @@ var HomePage = React.createClass({
 
     if (cellTypesArray[Number(rowID)] === 2){
       return (
-        <ItemCell showDisclosureIndicator={true} icon={require('./hums.jpg')}>
+        <ItemCell showDisclosureIndicator={true} icon={require('./hums1.jpg')}>
           Local image - {rowData}
         </ItemCell>
       )
@@ -55,7 +55,7 @@ var HomePage = React.createClass({
     }
     if (rowID === '6') {
       return (
-        <ItemCell showDisclosureIndicator={true} icon={require('./hums.jpg')}>
+        <ItemCell showDisclosureIndicator={true} icon={require('./hums1.jpg')}>
           Local image - {rowData}
         </ItemCell>
       )
@@ -70,15 +70,13 @@ var HomePage = React.createClass({
   },
 
   onActionSelected: function(position) {
-    if (position === 0) { // index of 'Settings'
+    if (position === 1) { // index of 'Settings'
       Actions.mappage();
     }
-    if (position === 1)
+    if (position === 2)
     {
       Actions.webpage();
     }
-
-
   },
 
 
@@ -94,8 +92,9 @@ var HomePage = React.createClass({
     };
     */
     var toolbarActions =[
-      {title: 'Map', icon:require('./hums.jpg'), show: 'always'},
-      {title: 'Settings', icon:require('./hums.jpg'), show: 'always'},
+      {title: 'Home' ,  icon:require('./hums1.jpg'), show: 'always'},
+      {title: 'Map', icon:require('./hums1.jpg'), show: 'always'},
+      {title: 'Web', icon:require('./hums1.jpg'), show: 'always'},
     ];
 
     return (
@@ -103,9 +102,11 @@ var HomePage = React.createClass({
 
       <ToolbarAndroid
        actions={toolbarActions}
+       navIcon={require('./navicon.png')}
        onActionSelected={this.onActionSelected}
+       title={'Home'}
        style={styles.toolbar}
-       title='Home'></ToolbarAndroid>
+       ></ToolbarAndroid>
 
 
           <ListView style={styles.container}
@@ -130,8 +131,6 @@ var styles = StyleSheet.create({
     backgroundColor: '#e9eaed',
     height: 56,
   },
-
-
 });
 
 module.exports = HomePage;
