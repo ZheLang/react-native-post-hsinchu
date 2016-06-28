@@ -4,15 +4,19 @@ import Button from "react-native-button";
 import {Actions} from "react-native-router-flux";
 import ItemCell from 'react-native-item-cell';
 import NavigationBar from 'react-native-navbar';
-
 import MapView,{Marker} from 'react-native-maps';
 
-var { width, height } = Dimensions.get('window');
+//var CustomCallout = require('./CustomCallout');
 
-const ASPECT_RATIO = width / height;
+var {
+  height: deviceHeight,
+  width: deviceWidth
+} = Dimensions.get("window");
+
+const ASPECT_RATIO = deviceWidth / deviceHeight;
 const LATITUDE = 24.80121;
 const LONGITUDE = 120.975116;
-const LATITUDE_DELTA = 0.0122;
+const LATITUDE_DELTA = 0.0065;
 const LONGITUDE_DELTA = LATITUDE_DELTA * ASPECT_RATIO;
 let id = 0;
 
@@ -180,7 +184,7 @@ var MapPage = React.createClass({
   render() {
 
         const titleConfig = {
-          title:' MapPage ',
+          title:' 地圖 ',
         };
 
         const leftButtonConfig = {
@@ -228,27 +232,36 @@ var MapPage = React.createClass({
     return (
 
       <View style={{flex:1}}>
+
           <NavigationBar tintColor='#f7f7f7'
                           title={titleConfig}
                           leftButton={leftButtonConfig}
                           />
-          <MapView
-              style={styles.map}
-              initialRegion={this.state.region}
-              annotations={this.state.markers}
-              showsUserLocation={true}
-              >
-              {this.state.markers.map(marker => (
-                <MapView.Marker
-                  coordinate={marker.latlng}
-                  title={marker.title}
-                  description={marker.description}
-                  onCalloutPress={markersAction[marker.id-1]}
-                  image={markerImg[marker.id-1]}
-                />
-              ))}
+          <View style={styles.container}>
+              <MapView
+                  style={styles.map}
+                  initialRegion={this.state.region}
+                  annotations={this.state.markers}
+                  showsUserLocation={true}
+                  >
+                  {this.state.markers.map(marker => (
+                    <MapView.Marker
+                      coordinate={marker.latlng}
+                      title={marker.title}
+                      description={marker.description}
+                      onCalloutPress={markersAction[marker.id-1]}
+                      image={markerImg[marker.id-1]}
+                    >
+                    </MapView.Marker>
+                  ))}
+              </MapView>
 
-          </MapView>
+              <View style={styles.buttonContainer}>
+                <View style={styles.bubble}>
+                  <Text style={{textAlign:'center'}}>單按圖標上的說明文字可觀看展覽品說明</Text>
+                </View>
+              </View>
+          </View>
       </View>
 
 
@@ -258,17 +271,13 @@ var MapPage = React.createClass({
 
 var styles = StyleSheet.create({
   container: {
-    position: 'absolute',
-    top: 0,
-    left: 0,
-    right: 0,
-    bottom: 0,
+    flex:1,
     justifyContent: 'flex-end',
     alignItems: 'center',
   },
   map: {
     position: 'absolute',
-    top: 43,
+    top: 0,
     left: 0,
     right: 0,
     bottom: 0,
@@ -277,6 +286,19 @@ var styles = StyleSheet.create({
     backgroundColor: '#e9eaed',
     height: 56,
   },
+  buttonContainer: {
+    flexDirection: 'row',
+    marginVertical: 20,
+    backgroundColor: 'transparent',
+  },
+  bubble: {
+    flex:0.5,
+    backgroundColor: 'rgba(255,255,255,0.9)',
+    paddingHorizontal: 18,
+    paddingVertical: 25,
+    borderRadius: 20,
+  },
+
 });
 
 module.exports = MapPage;

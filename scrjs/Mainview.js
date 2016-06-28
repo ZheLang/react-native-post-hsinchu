@@ -1,5 +1,5 @@
 import React from 'react';
-import {AppRegistry, Navigator, StyleSheet, Text, View} from 'react-native'
+import {AppRegistry, Navigator, StyleSheet, Text, View , BackAndroid} from 'react-native'
 import {Scene, Reducer, Router, Switch, TabBar, Modal, Schema, Actions} from 'react-native-router-flux'
 import Button from "react-native-button";
 
@@ -41,6 +41,8 @@ const reducerCreate = params=>{
     }
 };
 
+
+
 // define this based on the styles/dimensions you use
 const getSceneStyle = function (/* NavigationSceneRendererProps */ props, computedProps) {
   const style = {
@@ -60,12 +62,20 @@ const getSceneStyle = function (/* NavigationSceneRendererProps */ props, comput
 
 
 export default class Mainview extends React.Component {
+
+  componentDidMount() {
+      BackAndroid.addEventListener('hardwareBackPress', function() {
+         if (true) { Actions.pop();
+           return true; }
+       return false; });
+  }
+
     render() {
         return <Router createReducer={reducerCreate} getSceneStyle={getSceneStyle}>
             <Scene key="modal" component={Modal} >
                 <Scene key="root" hideNavBar hideTabBar>
-                    <Scene key="welcome" component={Welcome} title="Welcome" initial={true}/>
-                    <Scene key="homepage" component={HomePage} title="Home"/>
+                    <Scene key="welcome" component={Welcome} title="Welcome"  initial={true}/>
+                    <Scene key="homepage" component={HomePage} title="Home" />
                     <Scene key="mappage" component={MapPage} title="Map"/>
                     <Scene key='webpage' component={WebPage} title="Web"/>
 

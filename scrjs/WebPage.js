@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Text, StyleSheet, Animated, Dimensions, TouchableOpacity,WebView} from "react-native";
+import {View, Text, StyleSheet, Animated, Dimensions, TouchableOpacity,WebView ,BackAndroid} from "react-native";
 import Button from "react-native-button";
 import {Actions} from "react-native-router-flux";
 import NavigationBar from 'react-native-navbar';
@@ -12,15 +12,12 @@ var { width, height } = Dimensions.get('window');
 var WebPage = React.createClass({
   getInitialState() {
     return {
-      DEFAULT_URL : 'https://www.google.com.tw/',
+      DEFAULT_URL : 'http://www.post-hsinchu.com/',
 
 
     };
   },
 
-  componentDidMount() {
-    Actions.refresh();
-  },
 
 
   onActionSelected: function(position) {
@@ -44,7 +41,7 @@ var WebPage = React.createClass({
   render() {
 
         const titleConfig = {
-          title:' WebPage ',
+          title:' 後新竹時代 ',
         };
 
         const leftButtonConfig = {
@@ -52,9 +49,9 @@ var WebPage = React.createClass({
           handler:Actions.pop,
         };
         var toolbarActions =[
-          {title: 'Home' ,  icon:require('./hums.jpg'), show: 'always'},
-          {title: 'Map', icon:require('./hums.jpg'), show: 'always'},
-          {title: 'Web', icon:require('./hums.jpg'), show: 'always'},
+          {title: 'Home' ,  icon:require('./components/ic_home_normal@2x.png'), show: 'always'},
+          {title: 'Map', icon:require('./components/ic_map_normal@2x.png'), show: 'always'},
+          {title: 'Web', icon:require('./components/ic_web_pressed@2x.png'), show: 'always'},
         ];
 
     return (
@@ -62,9 +59,8 @@ var WebPage = React.createClass({
       <View style={{flex:1}}>
           <ToolbarAndroid
            actions={toolbarActions}
-           navIcon={require('./navicon.png')}
            onActionSelected={this.onActionSelected}
-           title={'WebPage'}
+           title={'後新竹時代'}
            style={styles.toolbar}
            ></ToolbarAndroid>
           <WebView

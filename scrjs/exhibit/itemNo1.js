@@ -5,7 +5,7 @@ import {Actions} from "react-native-router-flux";
 import ItemCell from 'react-native-item-cell';
 import NavigationBar from 'react-native-navbar';
 import AudioPlayer from 'react-native-audio-manager';
-//var Orientation = require('react-native-orientation');
+var Orientation2 = require('react-native-orientation');
 var Orientation = require('react-native-orientation-listener');
 
 var {
@@ -18,7 +18,7 @@ var Item1 = React.createClass({
   getInitialState: function() {
     return{
       title:'01|風是甜的',
-      subtitle: '梁任宏',
+      subtitle:'梁任宏',
       size:'作品尺寸: 高398 x 長220 x 寬52（公分)',
       material:'作品材質: 不鏽鋼、烤漆、培林',
       content:'梁任宏受邀為各地各式節慶以及公共環境製作大型的戶外裝置，呈現出其多元精準的藝術樣貌。本次展出他的〈風是甜的〉，手持巨型的甜筒冰淇淋，色彩甜美討喜，任隨大自然的風動而擺動。在後站地下道的出口即能明顯地看到這件作品揮舞雙臂，就像是在歡迎旅客來到新竹。',
@@ -28,17 +28,84 @@ var Item1 = React.createClass({
       outText:'Stop',
       deviceHeight:deviceHeight,
       deviceWidth:deviceWidth,
+      orientationText:'No orientation',
     };
   },
 
   _setOrientation(data) {
-    var height = this.state.deviceHeight;
-    var width = this.state.deviceWidth;
+    //don't know why orientations get reversed
+    Orientation2.getOrientation((err , orientation)=>
+    {
+      var height = this.state.deviceHeight;
+      var width = this.state.deviceWidth;
 
-    this.setState({deviceHeight:width , deviceWidth:height});
+      if (orientation == 'PORTRAIT')
+      {
+        var orientationText = this.state.orientationText;
+        orientationText = orientation;
+        if (height > width)
+        {
+            this.setState({deviceHeight:width , deviceWidth:height})
+        }
+        this.setState({orientationText:orientationText});
+      }
+      if (orientation == 'LANDSCAPE')
+      {
+        var orientationText = this.state.orientationText;
+        orientationText = orientation;
+        if (height < width)
+        {
+            this.setState({deviceHeight:width , deviceWidth:height})
+        }
+        this.setState({orientationText:orientationText});
+      }
+    });
+    //this.setState({deviceHeight:width , deviceWidth:height});
   },
 
   componentDidMount(){
+    var initial = Orientation2.getInitialOrientation();
+    var orientationText = this.state.orientationText;
+    if (initial === 'PORTRAIT') {
+      var height = this.state.deviceHeight;
+      var width = this.state.deviceWidth;
+      var orientation = this.state.orientation;
+
+      if (deviceHeight > deviceWidth)
+      {
+        height = deviceHeight;
+        width = deviceWidth;
+      }
+      else
+      {
+        height = deviceWidth;
+        width = deviceHeight;
+      }
+
+
+      this.setState({deviceHeight:height , deviceWidth:width});
+
+
+    } else {
+      var height = this.state.deviceHeight;
+      var width = this.state.deviceWidth;
+      var orientation = this.state.orientation;
+
+      if (deviceWidth > deviceHeight)
+      {
+        height = deviceHeight;
+        width = deviceWidth;
+      }
+      else
+      {
+        height = deviceWidth;
+        width = deviceHeight;
+      }
+      orientation = 'LANDSCAPE';
+      this.setState({deviceHeight:height , deviceWidth:width});
+
+    }
+
     Orientation.addListener(this._setOrientation);
   },
 
@@ -118,14 +185,14 @@ var Item1 = React.createClass({
     var playPressing = this.state.playPressing;
 
     if (playing == true){
-      AudioPlayer.pause('sample');
+      AudioPlayer.pause('i01');
       playing = false;
       playPressing = false;
       this.setState({playing:playing , playPressing:playPressing});
     }
     else
     {
-      AudioPlayer.play('sample')
+      AudioPlayer.play('i01')
       playing = true;
       playPressing = false;
       this.setState({playing:playing ,  playPressing:playPressing});
@@ -147,7 +214,7 @@ var Item1 = React.createClass({
     var stopPressing = this.state.stopPressing;
 
     if (playing == true){
-      AudioPlayer.stop('sample');
+      AudioPlayer.stop('i01');
       playing = false;
       stopPressing = false;
       this.setState({playing:playing , stopPressing:stopPressing})
@@ -175,7 +242,7 @@ var Item1 = React.createClass({
 
   goBack:function()
   {
-    AudioPlayer.stop('sample');
+    AudioPlayer.stop('i01');
     Actions.pop();
   },
 
@@ -187,7 +254,7 @@ var Item1 = React.createClass({
     };
 
     const leftButtonConfig = {
-      title:' < ',
+      title:' Back ',
       handler:this.goBack,
     };
 
@@ -213,8 +280,9 @@ var Item1 = React.createClass({
                             title={titleConfig}
                             leftButton={leftButtonConfig}
                             />
+
         <ScrollView style={{height: deviceHeight+300}}>
-            <View style={{flex:1,backgroundColor:'#f4f4f4',borderWidth:15,borderColor:'#FFFFFF'}}>
+            <View style={{flex:1,height:deviceHeight-60, backgroundColor:'#f4f4f4',borderWidth:15,borderColor:'#FFFFFF'}}>
 
                 <View style={{flexDirection:'row'}}>
                   <View style={{flex:1}}>
@@ -244,10 +312,12 @@ var Item1 = React.createClass({
                                     backgroundColor:'#F5FC00',}} source={require('./components/01@2x.jpg')}/>
                   </View>
 
-                <Text style={styles.subtitle}> {this.state.subtitle} </Text>
-                <Text style={styles.info}> {this.state.material} </Text>
+                <Text style={styles.subtitle}>{this.state.subtitle}</Text>
+                <Text style={styles.info}>{this.state.material}</Text>
 
                 <Text style={styles.mainContent}>{this.state.content}</Text>
+
+
 
             </View>
         </ScrollView>
@@ -267,6 +337,7 @@ var styles = StyleSheet.create({
     textAlign:'left',
     marginHorizontal:15,
     marginTop:25,
+    color:'#32C800',
   },
   subtitle:{
     fontSize:20,
@@ -274,21 +345,22 @@ var styles = StyleSheet.create({
     textAlign:'left',
     marginHorizontal:15,
     marginTop:10,
+    color:'#32C800',
   },
   playButton:{
     height:30,
     width:60,
     marginHorizontal:0,
-    marginTop:20,
+    marginTop:23,
     resizeMode:'cover',
   },
   stopButton:{
     height:30,
     width:60,
     marginHorizontal:0,
-    marginTop:20,
+    marginTop:23,
     resizeMode:'cover',
-    marginRight:15,
+    marginRight:5,
   },
   info:{
     fontSize:12,
@@ -320,7 +392,6 @@ var styles = StyleSheet.create({
     marginBottom:5,
     margin:15,
     resizeMode:'cover',
-    backgroundColor:'#F5FC00',
   },
   /*
   stop:
