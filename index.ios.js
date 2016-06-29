@@ -4,7 +4,7 @@
  * @author Fuyuan Cheng <gloomcheng@zhelang.com.tw>
  */
 
-import { AppRegistry } from 'react-native';
-import App from './app'
+import {AppRegistry} from 'react-native';
+import Mainview from './scrjs/Mainview.js';
 
-AppRegistry.registerComponent('PostHsinchu', () => App);
+AppRegistry.registerComponent('PostHsinchu', () => Mainview);

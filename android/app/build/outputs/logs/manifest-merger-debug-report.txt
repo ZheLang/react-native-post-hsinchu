@@ -1,273 +1,219 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/src/main/AndroidManifest.xml:1:1-30:12
+ADDED from /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/src/main/AndroidManifest.xml:1:1-30:12
 	package
-		ADDED from /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/src/main/AndroidManifest.xml:2:5-29
-		INJECTED from /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/src/main/AndroidManifest.xml:2:5-38
+		INJECTED from /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/src/main/AndroidManifest.xml:4:5-30
-		INJECTED from /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/src/main/AndroidManifest.xml:4:5-30
+		INJECTED from /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/src/main/AndroidManifest.xml
 	android:versionCode
-		ADDED from /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/src/main/AndroidManifest.xml:3:5-28
-		INJECTED from /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/src/main/AndroidManifest.xml:3:5-28
+		INJECTED from /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/src/main/AndroidManifest.xml:6:5-67
-MERGED from [newProject:react-native-maps:unspecified] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/newProject/react-native-maps/unspecified/AndroidManifest.xml:11:5-67
-MERGED from [com.google.android.gms:play-services-maps:8.4.0] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:21:5-66
-MERGED from [newProject:react-native-mapbox-gl:unspecified] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/newProject/react-native-mapbox-gl/unspecified/AndroidManifest.xml:11:5-67
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:3.2.0] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.mapbox.mapboxsdk/mapbox-android-sdk/3.2.0/AndroidManifest.xml:13:5-67
+ADDED from /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/src/main/AndroidManifest.xml:6:5-67
+MERGED from [PostHsinchu:react-native-maps:unspecified] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/PostHsinchu/react-native-maps/unspecified/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:21:5-66
 	android:name
-		ADDED from /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/src/main/AndroidManifest.xml:6:22-64
+		ADDED from /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/src/main/AndroidManifest.xml:6:22-64
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/src/main/AndroidManifest.xml:7:5-77
-MERGED from [com.facebook.react:react-native:0.24.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.24.1/AndroidManifest.xml:11:5-78
-MERGED from [com.facebook.react:react-native:0.24.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.24.1/AndroidManifest.xml:11:5-78
-MERGED from [com.facebook.react:react-native:0.24.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.24.1/AndroidManifest.xml:11:5-78
-MERGED from [com.facebook.react:react-native:0.24.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.24.1/AndroidManifest.xml:11:5-78
-MERGED from [com.facebook.react:react-native:0.24.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.24.1/AndroidManifest.xml:11:5-78
+ADDED from /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/src/main/AndroidManifest.xml:7:5-77
+MERGED from [com.facebook.react:react-native:0.24.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.24.1/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.24.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.24.1/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.24.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.24.1/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.24.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.24.1/AndroidManifest.xml:11:5-78
 	android:name
-		ADDED from /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/src/main/AndroidManifest.xml:7:22-75
+		ADDED from /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/src/main/AndroidManifest.xml:7:22-75
 uses-sdk
-ADDED from /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/src/main/AndroidManifest.xml:9:5-11:41
-MERGED from [newProject:react-native-sound:unspecified] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/newProject/react-native-sound/unspecified/AndroidManifest.xml:9:5-11:41
-MERGED from [com.facebook.react:react-native:0.24.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.24.1/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.fresco:fresco:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.facebook.fresco:fbcore:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.facebook.fresco:imagepipeline-okhttp:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.facebook.fresco:fbcore:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:recyclerview-v7:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
-MERGED from [newProject:react-native-maps:unspecified] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/newProject/react-native-maps/unspecified/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.24.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.24.1/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.fresco:fresco:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.facebook.fresco:fbcore:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.facebook.fresco:imagepipeline-okhttp:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.facebook.fresco:fbcore:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:recyclerview-v7:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-base:8.4.0] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-maps:8.4.0] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:26:5-42
-MERGED from [com.google.android.gms:play-services-base:8.4.0] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
-MERGED from [newProject:react-native-mapbox-gl:unspecified] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/newProject/react-native-mapbox-gl/unspecified/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.24.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.24.1/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.fresco:fresco:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.facebook.fresco:fbcore:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.facebook.fresco:imagepipeline-okhttp:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.facebook.fresco:fbcore:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:recyclerview-v7:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:3.2.0] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.mapbox.mapboxsdk/mapbox-android-sdk/3.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:design:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
-MERGED from [newProject:react-native-geocoder:unspecified] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/newProject/react-native-geocoder/unspecified/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.24.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.24.1/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.fresco:fresco:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.facebook.fresco:fbcore:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.facebook.fresco:imagepipeline-okhttp:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.facebook.fresco:fbcore:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:recyclerview-v7:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.facebook.react:react-native:0.24.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.24.1/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.fresco:fresco:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.facebook.fresco:fbcore:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.facebook.fresco:imagepipeline-okhttp:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.facebook.fresco:fbcore:0.8.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:recyclerview-v7:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
+ADDED from /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/src/main/AndroidManifest.xml:9:5-11:41
+MERGED from [PostHsinchu:react-native-sound:unspecified] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/PostHsinchu/react-native-sound/unspecified/AndroidManifest.xml:9:5-11:41
+MERGED from [com.facebook.react:react-native:0.24.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.24.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:fresco:0.8.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:0.8.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:0.8.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.fresco:fbcore:0.8.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:0.8.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:0.8.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.fresco:imagepipeline-okhttp:0.8.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:0.8.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:0.8.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.fresco:fbcore:0.8.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [PostHsinchu:react-native-maps:unspecified] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/PostHsinchu/react-native-maps/unspecified/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.24.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.24.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:fresco:0.8.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:0.8.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:0.8.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.fresco:fbcore:0.8.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:0.8.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:0.8.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.fresco:imagepipeline-okhttp:0.8.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:0.8.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:0.8.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.fresco:fbcore:0.8.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [PostHsinchu:react-native-geocoder:unspecified] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/PostHsinchu/react-native-geocoder/unspecified/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.24.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.24.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:fresco:0.8.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:0.8.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:0.8.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.fresco:fbcore:0.8.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:0.8.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:0.8.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.fresco:imagepipeline-okhttp:0.8.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:0.8.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:0.8.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.fresco:fbcore:0.8.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.react:react-native:0.24.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.24.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:fresco:0.8.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:0.8.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:0.8.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.fresco:fbcore:0.8.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:0.8.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:0.8.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.fresco:imagepipeline-okhttp:0.8.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:0.8.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:0.8.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.fresco:fbcore:0.8.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
-		ADDED from /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/src/main/AndroidManifest.xml:11:9-38
-		INJECTED from /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/src/main/AndroidManifest.xml:11:9-38
+		INJECTED from /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/src/main/AndroidManifest.xml:10:9-35
-		INJECTED from /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/src/main/AndroidManifest.xml:10:9-35
+		INJECTED from /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/src/main/AndroidManifest.xml
 application
-ADDED from /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/src/main/AndroidManifest.xml:13:5-28:19
-MERGED from [com.facebook.react:react-native:0.24.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.24.1/AndroidManifest.xml:13:5-20
-MERGED from [org.webkit:android-jsc:r174650] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/org.webkit/android-jsc/r174650/AndroidManifest.xml:2:3-17
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.facebook.react:react-native:0.24.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.24.1/AndroidManifest.xml:13:5-20
-MERGED from [org.webkit:android-jsc:r174650] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/org.webkit/android-jsc/r174650/AndroidManifest.xml:2:3-17
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-maps:8.4.0] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:27:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.facebook.react:react-native:0.24.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.24.1/AndroidManifest.xml:13:5-20
-MERGED from [org.webkit:android-jsc:r174650] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/org.webkit/android-jsc/r174650/AndroidManifest.xml:2:3-17
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.facebook.react:react-native:0.24.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.24.1/AndroidManifest.xml:13:5-20
-MERGED from [org.webkit:android-jsc:r174650] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/org.webkit/android-jsc/r174650/AndroidManifest.xml:2:3-17
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.facebook.react:react-native:0.24.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.24.1/AndroidManifest.xml:13:5-20
-MERGED from [org.webkit:android-jsc:r174650] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/org.webkit/android-jsc/r174650/AndroidManifest.xml:2:3-17
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
+ADDED from /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/src/main/AndroidManifest.xml:13:5-28:19
+MERGED from [com.facebook.react:react-native:0.24.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.24.1/AndroidManifest.xml:13:5-20
+MERGED from [org.webkit:android-jsc:r174650] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/org.webkit/android-jsc/r174650/AndroidManifest.xml:2:3-17
+MERGED from [com.android.support:support-v4:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.facebook.react:react-native:0.24.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.24.1/AndroidManifest.xml:13:5-20
+MERGED from [org.webkit:android-jsc:r174650] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/org.webkit/android-jsc/r174650/AndroidManifest.xml:2:3-17
+MERGED from [com.android.support:support-v4:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.facebook.react:react-native:0.24.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.24.1/AndroidManifest.xml:13:5-20
+MERGED from [org.webkit:android-jsc:r174650] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/org.webkit/android-jsc/r174650/AndroidManifest.xml:2:3-17
+MERGED from [com.android.support:support-v4:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.facebook.react:react-native:0.24.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.24.1/AndroidManifest.xml:13:5-20
+MERGED from [org.webkit:android-jsc:r174650] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/org.webkit/android-jsc/r174650/AndroidManifest.xml:2:3-17
+MERGED from [com.android.support:support-v4:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/src/main/AndroidManifest.xml:15:7-39
+		ADDED from /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/src/main/AndroidManifest.xml:15:7-39
 	android:allowBackup
-		ADDED from /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/src/main/AndroidManifest.xml:14:7-33
+		ADDED from /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/src/main/AndroidManifest.xml:14:7-33
 	android:icon
-		ADDED from /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/src/main/AndroidManifest.xml:16:7-41
+		ADDED from /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/src/main/AndroidManifest.xml:16:7-41
 	android:theme
-		ADDED from /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/src/main/AndroidManifest.xml:17:7-38
-activity#com.newproject.MainActivity
-ADDED from /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/src/main/AndroidManifest.xml:18:7-26:18
+		ADDED from /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/src/main/AndroidManifest.xml:17:7-38
+activity#com.zhelang.posthsinchu.MainActivity
+ADDED from /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/src/main/AndroidManifest.xml:18:7-26:18
 	android:label
-		ADDED from /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/src/main/AndroidManifest.xml:20:9-41
+		ADDED from /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/src/main/AndroidManifest.xml:20:9-41
 	android:configChanges
-		ADDED from /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/src/main/AndroidManifest.xml:21:9-79
+		ADDED from /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/src/main/AndroidManifest.xml:21:9-79
 	android:name
-		ADDED from /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/src/main/AndroidManifest.xml:19:9-37
+		ADDED from /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/src/main/AndroidManifest.xml:19:9-37
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/src/main/AndroidManifest.xml:22:9-25:25
+ADDED from /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/src/main/AndroidManifest.xml:22:9-25:25
 action#android.intent.action.MAIN
-ADDED from /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/src/main/AndroidManifest.xml:23:13-65
+ADDED from /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/src/main/AndroidManifest.xml:23:13-65
 	android:name
-		ADDED from /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/src/main/AndroidManifest.xml:23:21-62
+		ADDED from /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/src/main/AndroidManifest.xml:23:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/src/main/AndroidManifest.xml:24:13-73
+ADDED from /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/src/main/AndroidManifest.xml:24:13-73
 	android:name
-		ADDED from /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/src/main/AndroidManifest.xml:24:23-70
+		ADDED from /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/src/main/AndroidManifest.xml:24:23-70
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/src/main/AndroidManifest.xml:27:7-84
+ADDED from /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/src/main/AndroidManifest.xml:27:7-84
 	android:name
-		ADDED from /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/src/main/AndroidManifest.xml:27:17-81
+		ADDED from /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/src/main/AndroidManifest.xml:27:17-81
 android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/src/main/AndroidManifest.xml:1:1-30:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/src/main/AndroidManifest.xml:1:1-30:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 android:uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/src/main/AndroidManifest.xml:1:1-30:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/src/main/AndroidManifest.xml:1:1-30:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/src/main/AndroidManifest.xml:1:1-30:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/src/main/AndroidManifest.xml:1:1-30:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:8.4.0] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
+ADDED from [com.google.android.gms:play-services-basement:8.4.0] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:8.4.0] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:23:13-66
+		ADDED from [com.google.android.gms:play-services-basement:8.4.0] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:23:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:8.4.0] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:22:13-58
+		ADDED from [com.google.android.gms:play-services-basement:8.4.0] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:22:13-58
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.android.gms:play-services-maps:8.4.0] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:20:5-78
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:3.2.0] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.mapbox.mapboxsdk/mapbox-android-sdk/3.2.0/AndroidManifest.xml:14:5-79
+ADDED from [com.google.android.gms:play-services-maps:8.4.0] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:20:5-78
 	android:name
-		ADDED from [com.google.android.gms:play-services-maps:8.4.0] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:20:22-76
+		ADDED from [com.google.android.gms:play-services-maps:8.4.0] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:20:22-76
 uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:8.4.0] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:22:5-24:33
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:3.2.0] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.mapbox.mapboxsdk/mapbox-android-sdk/3.2.0/AndroidManifest.xml:9:5-11:35
+ADDED from [com.google.android.gms:play-services-maps:8.4.0] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:22:5-24:33
 	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:8.4.0] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:23:8-40
+		ADDED from [com.google.android.gms:play-services-maps:8.4.0] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:23:8-40
 	android:required
-		ADDED from [com.google.android.gms:play-services-maps:8.4.0] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:24:8-31
-uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from [newProject:react-native-mapbox-gl:unspecified] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/newProject/react-native-mapbox-gl/unspecified/AndroidManifest.xml:12:5-79
-	android:name
-		ADDED from [newProject:react-native-mapbox-gl:unspecified] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/newProject/react-native-mapbox-gl/unspecified/AndroidManifest.xml:12:22-76
-uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from [newProject:react-native-mapbox-gl:unspecified] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/newProject/react-native-mapbox-gl/unspecified/AndroidManifest.xml:13:5-81
-	android:name
-		ADDED from [newProject:react-native-mapbox-gl:unspecified] /home/pandaman/Desktop/RN/hsinchu/testbuild/newProject/android/app/build/intermediates/exploded-aar/newProject/react-native-mapbox-gl/unspecified/AndroidManifest.xml:13:22-78
+		ADDED from [com.google.android.gms:play-services-maps:8.4.0] /Users/fuyuanzheng/Develope/zhelang/react-native-post-hsinchu/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:24:8-31

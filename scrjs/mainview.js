@@ -1,204 +1,102 @@
-import React, { Component } from 'react';
-var Mapbox = require('react-native-mapbox-gl');
-var mapRef = 'mapRef';
-var Sound = require('react-native-sound');
+import React from 'react';
+import {AppRegistry, Navigator, StyleSheet, Text, View , BackAndroid} from 'react-native'
+import {Scene, Reducer, Router, Switch, TabBar, Modal, Schema, Actions} from 'react-native-router-flux'
+import Button from "react-native-button";
 
-import {
-  AppRegistry,
-  StyleSheet,
-  Text,
-  StatusBar,
-  View,
-  Image,
-} from 'react-native';
+import Welcome from './Welcome';
+import MapPage from './MapPage';
+import HomePage from './HomePage';
+import WebPage from './WebPage';
 
-var Mainview = React.createClass({
-  mixins: [Mapbox.Mixin],
-  getInitialState() {
-    return {
+import Item1 from './exhibit/itemNo1';
+import Item2 from './exhibit/itemNo2';
+import Item3 from './exhibit/itemNo3';
+import Item4 from './exhibit/itemNo4';
+import Item5 from './exhibit/itemNo5';
+import Item6 from './exhibit/itemNo6';
+import Item7 from './exhibit/itemNo7';
+import Item8 from './exhibit/itemNo8';
+import Item9 from './exhibit/itemNo9';
+import Item10 from './exhibit/itemNo10';
+import Item11 from './exhibit/itemNo11';
+import Item12 from './exhibit/itemNo12';
+import Item13 from './exhibit/itemNo13';
+import Item14 from './exhibit/itemNo14';
+import Item15 from './exhibit/itemNo15';
 
-      center: {
-        latitude: 40.7223,
-        longitude: -73.9878
-      },
+import die from './exhibit/die';
 
-      taplocation:
-      {
-        latitude: 0,
-        longitude: 0
-      },
-      outText: 'Doing Noting',
-      boolOnTop:false,
-      otcontent:null,
-      boolaudioPlaying:true,
 
-      annotations: [{
-        coordinates: [40.7223, -73.9878],
-        type: 'point',
-        title: 'Important!',
-        subtitle: 'Neat, this is a custom annotation image',
-        id: 'marker2',
-        annotationImage: {
-          url: 'https://cldup.com/7NLZklp8zS.png',
-          height: 25,
-          width: 25
-        }
-      }, {
-        coordinates: [40.7923, -73.9178],
-        type: 'point',
-        title: 'Important!',
-        subtitle: 'Neat, this is a custom annotation image'
-      }, {
-        coordinates: [[40.76572150042782,-73.99429321289062],[40.743485405490695, -74.00218963623047],[40.728266950429735,-74.00218963623047],[40.728266950429735,-73.99154663085938],[40.73633186448861,-73.98983001708984],[40.74465591168391,-73.98914337158203],[40.749337730454826,-73.9870834350586] , [40.76572150042782,-73.99429321289062]],
-        type: 'polyline',
-        strokeColor: '#00FB00',
-        strokeWidth: 3,
-        alpha: 0.5,
-        id: 'foobar'
-      }, {
-        coordinates: [[40.749857912194386, -73.96820068359375], [40.741924698522055,-73.9735221862793], [40.735681504432264,-73.97523880004883], [40.7315190495212,-73.97438049316406], [40.729177554196376,-73.97180557250975], [40.72345355209305,-73.97438049316406], [40.719290332250544,-73.97455215454102], [40.71369559554873,-73.97729873657227], [40.71200407096382,-73.97850036621094], [40.71031250340588,-73.98691177368163], [40.71031250340588,-73.99154663085938]],
-        type: 'polygon',
-        alpha:1,
-        fillColor: '#FFFFFF',
-        strokeColor: '#FFFFFF',
-        strokeWidth: 1,
-        id: 'zap'
-      }]
+const styles = StyleSheet.create({
+    container: {flex:1, backgroundColor:"transparent",justifyContent: "center",
+        alignItems: "center",}
+
+});
+
+const reducerCreate = params=>{
+    const defaultReducer = Reducer(params);
+    return (state, action)=>{
+        console.log("ACTION:", action);
+        return defaultReducer(state, action);
     }
-  },
-  onUserLocationChange(location) {
-    console.log(location);
-  },
-  onLongPress(location) {
-    console.warn(location);
-    return;
-  },
-  changeText: function()
-  {
-    var outText = this.state.outText;
-    var otc = this.state.otcontent;
-    var bot = this.state.boolOnTop ? false : true;
-    var audplay = this.state.boolaudioPlaying;
-    var talk = new Sound('./Sample.mp3' , Sound.MAIN_BUNDLE);
+};
 
 
-    if(bot)
-    {
-      outText = "Show Infos";
-      if (audplay)
-      {
-        talk.play();
-      }
-      otc = <View style={styles.onTopBG}>
-            <Text style={styles.onTopRT} onPress = {()=>this.changeText()}> Return</Text>
-            <Text style={styles.onTopStop} onPress={()=>{talk.stop();outText="Audio Stop";this.setState({outText:outText});}}> Stop Playing </Text>
-            <Image style={styles.onTopImg} source={require('./hums.jpg')}/>
-            <Text style={styles.onTopConent}>if you stare into the abyss the abyss stares back at you</Text>
-            </View>
-    }
-    else
-    {
-      outText = "Doing Nothing";
-      otc = null;
-      audplay = true;
-      talk.stop();
-    }
-    this.setState({outText:outText,
-                   otcontent:otc,
-                   boolOnTop:bot,
-                   boolaudioPlaying:audplay,
-                  });
-  },
 
-
-  onOpenAnnotation(annotation) {
-    console.warn(annotation);
-    console.log(annotation);
-  },
-  render() {
-
-    return (
-      <View style={styles.container}>
-          <Mapbox
-            annotations={this.state.annotations}
-            accessToken={'pk.eyJ1IjoicGFuZGFtYW5jaHVuZyIsImEiOiJjaW96NmNpbGYwMGczdmJtNXZzcDF2M2tmIn0.BGp4NodHcQXuIwSl7ICKzQ'}
-            centerCoordinate={this.state.center}
-            debugActive={false}
-            direction={10}
-            ref={mapRef}
-            onRegionChange={this.onRegionChange}
-            rotateEnabled={true}
-            scrollEnabled={true}
-            style={styles.container}
-            showsUserLocation={true}
-            styleURL={this.mapStyles.emerald}
-            userTrackingMode={this.userTrackingMode.none}
-            zoomEnabled={true}
-            zoomLevel={12}
-            compassIsHidden={true}
-            onUserLocationChange={this.onUserLocationChange}
-            onLongPress={this.onLongPress}
-            onOpenAnnotation={()=>this.onOpenAnnotation()}
-          />
-          <Text onPress = {()=>this.changeText()}>
-            Press This to change the text below
-          </Text>
-          <Text>
-            {this.state.outText}
-          </Text>
-          {this.state.otcontent}
-      </View>
-
-    );
+// define this based on the styles/dimensions you use
+const getSceneStyle = function (/* NavigationSceneRendererProps */ props, computedProps) {
+  const style = {
+    flex: 1,
+    backgroundColor: '#fff',
+    shadowColor: null,
+    shadowOffset: null,
+    shadowOpacity: null,
+    shadowRadius: null,
+  };
+  if (computedProps.isActive) {
+    style.marginTop = computedProps.hideNavBar ? 0 : 64;
+    style.marginBottom = computedProps.hideTabBar ? 0 : 50;
   }
-});
-
-var styles = StyleSheet.create({
-  container: {
-    flex: 1
-  },
-  onTopBG:
-  {
-    width:380,
-    height:350,
-    top:150,
-    left:20,
-    position: 'absolute',
-    backgroundColor : '#f7e7d1',
-  },
-  onTopRT:
-  {
-    fontSize:16,
-    textAlign:'left',
-    margin:5,
-    textAlignVertical:'top',
-  },
-  onTopStop:
-  {
-    fontSize:16,
-    textAlign:'right',
-    margin:5,
-    textAlignVertical:'top',
-  },
-  onTopConent:
-  {
-    fontSize:26,
-    fontWeight:'200',
-    textAlign:'center',
-    marginVertical:10,
-    textAlignVertical:'bottom',
-  },
-  onTopImg:
-  {
-      width: 100,
-      height: 100,
-      margin: 10,
-      alignItems:'center',
-
-  },
+  return style;
+};
 
 
+export default class Mainview extends React.Component {
 
-});
+  componentDidMount() {
+      BackAndroid.addEventListener('hardwareBackPress', function() {
+         if (true) { Actions.pop();
+           return true; }
+       return false; });
+  }
 
-export default Mainview;
+    render() {
+        return <Router createReducer={reducerCreate} getSceneStyle={getSceneStyle}>
+            <Scene key="modal" component={Modal} >
+                <Scene key="root" hideNavBar hideTabBar>
+                    <Scene key="welcome" component={Welcome} title="Welcome"  initial={true}/>
+                    <Scene key="homepage" component={HomePage} title="Home" />
+                    <Scene key="mappage" component={MapPage} title="Map"/>
+                    <Scene key='webpage' component={WebPage} title="Web"/>
+
+                    <Scene key='item1' component={Item1} title="Item 1"/>
+                    <Scene key='item2' component={Item2} title="Item 2"/>
+                    <Scene key='item3' component={Item3} title="Item 3"/>
+                    <Scene key='item4' component={Item4} title="Item 4"/>
+                    <Scene key='item5' component={Item5} title="Item 5"/>
+                    <Scene key='item6' component={Item6} title="Item 6"/>
+                    <Scene key='item7' component={Item7} title="Item 7"/>
+                    <Scene key='item8' component={Item8} title="Item 8"/>
+                    <Scene key='item9' component={Item9} title="Item 9"/>
+                    <Scene key='item10' component={Item10} title="Item 10"/>
+                    <Scene key='item11' component={Item11} title="Item 11"/>
+                    <Scene key='item12' component={Item12} title="Item 12"/>
+                    <Scene key='item13' component={Item13} title="Item 13"/>
+                    <Scene key='item14' component={Item14} title="Item 14"/>
+                    <Scene key='item15' component={Item15} title="Item 15"/>
+                    <Scene key='die' component={die} title='die'/>
+                </Scene>
+            </Scene>
+        </Router>;
+    }
+}

@@ -1,6 +1,7 @@
-package com.posthsinchu;
+package com.zhelang.posthsinchu;
 
 import com.facebook.react.ReactActivity;
+import com.zmxv.RNSound.RNSoundPackage;
 import com.AirMaps.AirPackage;
 import com.devfd.RNGeocoder.RNGeocoderPackage;
 import com.facebook.react.ReactPackage;
@@ -37,6 +38,7 @@ public class MainActivity extends ReactActivity {
     protected List<ReactPackage> getPackages() {
         return Arrays.<ReactPackage>asList(
             new MainReactPackage(),
+            new RNSoundPackage(),
             new AirPackage(),
             new RNGeocoderPackage()
         );
