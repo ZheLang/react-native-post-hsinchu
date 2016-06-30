@@ -45,6 +45,7 @@ const reducerCreate = params=>{
     }
 };
 
+//BackButton handler for Android
 BackAndroid.addEventListener('hardwareBackPress', () => {
   if (sceneName != 'homepage')
   {
@@ -74,8 +75,6 @@ const getSceneStyle = function (/* NavigationSceneRendererProps */ props, comput
 
 
 export default class Mainview extends React.Component {
-
-
 
     render() {
         return <Router createReducer={reducerCreate} getSceneStyle={getSceneStyle}>

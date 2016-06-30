@@ -6,8 +6,6 @@ import ItemCell from 'react-native-item-cell';
 import NavigationBar from 'react-native-navbar';
 import MapView,{Marker} from 'react-native-maps';
 
-//var CustomCallout = require('./CustomCallout');
-
 var {
   height: deviceHeight,
   width: deviceWidth
@@ -172,8 +170,6 @@ var MapPage = React.createClass({
                                 },
 
               ],
-
-
     };
   },
 

@@ -7,67 +7,30 @@ import ToolbarAndroid from 'ToolbarAndroid';
 
 var { width, height } = Dimensions.get('window');
 
-
 var WebPage = React.createClass({
   getInitialState() {
     return {
       DEFAULT_URL : 'http://www.post-hsinchu.com/',
-      exitApp:false,
-
     };
   },
 
-/*
-  componentDidMount() {
-      BackAndroid.addEventListener('hardwareBackPress', this._backAction);
-  },
-
-  componentWillUnmount(){
-    BackAndroid.removeEventListener('hardwareBackPress' , this._backAction);
-
-  },
-
-  _backAction(){
-      if (!this.state.exitApp) { Actions.pop();
-        console.warn('Web going back');
-        return true; }
-    return false;
-  },
-*/
-
   onActionSelected: function(position) {
-    if (position === 0)
-    {
-
+    if (position === 0){
       Actions.homepage();
     }
     if (position === 1) { // index of 'Settings'
-
       Actions.mappage();
-    }
-    if (position === 2)
-    {
-      //Actions.webpage();
     }
   },
 
-
-
   render() {
-
-        const titleConfig = {
-          title:' 後新竹時代 ',
-        };
-
-        const leftButtonConfig = {
-          title:'Back',
-          handler:Actions.pop,
-        };
+    
         var toolbarActions =[
           {title: 'Home' ,  icon:require('./components/ic_home_normal@2x.png'), show: 'always'},
           {title: 'Map', icon:require('./components/ic_map_normal@2x.png'), show: 'always'},
           {title: 'Web', icon:require('./components/ic_web_pressed@2x.png'), show: 'always'},
         ];
+
 
     return (
 
@@ -85,8 +48,6 @@ var WebPage = React.createClass({
               domStorageEnabled={true}
               startInLoadingState={true}>
           </WebView>
-
-
       </View>
 
     );
@@ -112,8 +73,6 @@ var styles = StyleSheet.create({
     backgroundColor: '#e9eaed',
     height: 56,
   },
-
-
 });
 
 module.exports = WebPage;

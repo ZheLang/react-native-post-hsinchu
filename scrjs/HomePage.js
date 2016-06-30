@@ -34,27 +34,9 @@ var HomePage = React.createClass({
     };
   },
 
-/*
-  componentDidMount() {
-      Actions.refresh();
-      BackAndroid.addEventListener('hardwareBackPress', this._backAction);
-  },
 
-  componentWillUnmount(){
-    BackAndroid.removeEventListener('hardwareBackPress' , this._backAction);
-  },
-
-  _backAction(){
-      if (this.state.exitApp == true){console.warn('FUCK');
-                                      return true;}
-      if (!this.state.exitApp) { Actions.pop();
-        return true; }
-    return true;
-  },
-*/
+//just in case
   _renderRow: function(rowData, sectionID, rowID, highlightRow) {
-
-
     var cellTypesArray = [1 , 2, 2, 2 , 5 , 2];
 
     if (cellTypesArray[Number(rowID)] === 2){
@@ -113,16 +95,7 @@ var HomePage = React.createClass({
 
 
   render: function() {
-    /*
-    const titleConfig = {
-      title:' Home ',
-    };
 
-    const rightButtonConfig = {
-      title:'Map',
-      handler:Actions.mappage,
-    };
-    */
     var toolbarActions =[
       {title: 'Home' ,  icon:require('./components/ic_home_pressed@2x.png'), show: 'always'},
       {title: 'Map', icon:require('./components/ic_map_normal@2x.png'), show: 'always'},

@@ -32,8 +32,8 @@ var Item1 = React.createClass({
     };
   },
 
+// orientation handler , fire when orientation changed
   _setOrientation(data) {
-    //don't know why orientations get reversed
     Orientation2.getOrientation((err , orientation)=>
     {
       var height = this.state.deviceHeight;
@@ -60,9 +60,9 @@ var Item1 = React.createClass({
         this.setState({orientationText:orientationText});
       }
     });
-    //this.setState({deviceHeight:width , deviceWidth:height});
   },
 
+// initial orientation handler
   componentDidMount(){
     var initial = Orientation2.getInitialOrientation();
     var orientationText = this.state.orientationText;
@@ -82,101 +82,30 @@ var Item1 = React.createClass({
         width = deviceHeight;
       }
 
-
       this.setState({deviceHeight:height , deviceWidth:width});
 
-
     } else {
+
       var height = this.state.deviceHeight;
       var width = this.state.deviceWidth;
       var orientation = this.state.orientation;
 
-      if (deviceWidth > deviceHeight)
-      {
+      if (deviceWidth > deviceHeight){
         height = deviceHeight;
         width = deviceWidth;
       }
-      else
-      {
+      else{
         height = deviceWidth;
         width = deviceHeight;
       }
+
       orientation = 'LANDSCAPE';
       this.setState({deviceHeight:height , deviceWidth:width});
-
     }
 
     Orientation.addListener(this._setOrientation);
   },
 
-
-/*
-
-  componentWillMount:function(){
-    Orientation.addOrientationListener(this._orientationDidChange);
-    var initial = Orientation.getInitialOrientation();
-    if (initial === 'PORTRAIT') {
-      var height = this.state.deviceHeight;
-      var width = this.state.deviceWidth;
-      var orientation = this.state.orientation;
-
-      if (deviceHeight > deviceWidth)
-      {
-        height = deviceHeight;
-        width = deviceWidth;
-      }
-      else
-      {
-        height = deviceWidth;
-        width = deviceHeight;
-      }
-
-      orientation = 'PORTRAIT';
-      this.setState({deviceHeight:height , deviceWidth:width , orientation:orientation});
-
-
-    } else {
-      var height = this.state.deviceHeight;
-      var width = this.state.deviceWidth;
-      var orientation = this.state.orientation;
-
-      if (deviceWidth > deviceHeight)
-      {
-        height = deviceHeight;
-        width = deviceWidth;
-      }
-      else
-      {
-        height = deviceWidth;
-        width = deviceHeight;
-      }
-      orientation = 'LANDSCAPE';
-      this.setState({deviceHeight:height , deviceWidth:width , orientation:orientation});
-
-    }
-  },
-
-  _orientationDidChange: function(orientation) {
-    if (orientation == 'LANDSCAPE') {
-      var height = this.state.deviceHeight;
-      var width = this.state.deviceWidth;
-      var orientation = this.state.orientation;
-
-      orientation = 'LANDSCAPE';
-      this.setState({deviceHeight:width , deviceWidth:height , orientation:orientation});
-    } else {
-      var height = this.state.deviceHeight;
-      var width = this.state.deviceWidth;
-
-
-      orientation = 'PORTRAIT';
-      this.setState({deviceHeight:width , deviceWidth:height , orientation:orientation});
-
-      //do something with portrait layout
-    }
-  },
-
-*/
 
 
   playPressed:function()
@@ -201,8 +130,8 @@ var Item1 = React.createClass({
 
   playPressing:function(){
     var playPressing = this.state.playPressing;
-    if (playPressing === false)
-    {
+    if (playPressing === false){
+
       playPressing = true;
       this.setState({playPressing:playPressing});
     }
@@ -214,13 +143,14 @@ var Item1 = React.createClass({
     var stopPressing = this.state.stopPressing;
 
     if (playing == true){
+
       AudioPlayer.stop('i01');
       playing = false;
       stopPressing = false;
       this.setState({playing:playing , stopPressing:stopPressing})
     }
-    else
-    {
+    else{
+
       playing = false;
       stopPressing = false;
       this.setState({playing:playing , stopPressing:stopPressing})
@@ -238,10 +168,8 @@ var Item1 = React.createClass({
     }
   },
 
-
-
-  goBack:function()
-  {
+  // stop audio b4 popping out
+  goBack:function(){
     AudioPlayer.stop('i01');
     Actions.pop();
   },
@@ -260,16 +188,16 @@ var Item1 = React.createClass({
 
 
     if (this.state.playPressing){
+
       var playButtonImg = this.state.playing ?require('./components/btn_pause_pressed@2x.png') : require('./components/btn_play_pressed@2x.png');
     }
-    else
-    {
+    else{
+
       var playButtonImg = this.state.playing ? require('./components/btn_pause_normal@2x.png') : require('./components/btn_play_normal@2x.png') ;
     }
 
 
    var stopButtonImg = this.state.stopPressing ? require('./components/btn_stop_pressed@2x.png') : require('./components/btn_stop_normal@2x.png');
-
    var imgWidth = this.state.deviceWidth - 60;
    var imgHeight = imgWidth / 2;
 
@@ -299,9 +227,6 @@ var Item1 = React.createClass({
 
                   </View>
                 </View>
-
-
-
                   <View style={{flexDirection:'row',alignItems:'center',justifyContent:'center'}}>
                       <Image style={{width:imgWidth,
                                     height:imgHeight,
@@ -311,14 +236,9 @@ var Item1 = React.createClass({
                                     resizeMode:'cover',
                                     backgroundColor:'#F5FC00',}} source={require('./components/01@2x.jpg')}/>
                   </View>
-
                 <Text style={styles.subtitle}>{this.state.subtitle}</Text>
                 <Text style={styles.info}>{this.state.material}</Text>
-
                 <Text style={styles.mainContent}>{this.state.content}</Text>
-
-
-
             </View>
         </ScrollView>
      </View>
@@ -394,17 +314,6 @@ var styles = StyleSheet.create({
     margin:15,
     resizeMode:'cover',
   },
-  /*
-  stop:
-  {
-    textAlignVertical:'bottom',
-    textAlign:'right',
-    marginBottom:15,
-    marginTop:8,
-  }
-  */
-
-
 });
 
 module.exports = Item1;
