@@ -24,7 +24,6 @@ import Item13 from './exhibit/itemNo13';
 import Item14 from './exhibit/itemNo14';
 import Item15 from './exhibit/itemNo15';
 
-import die from './exhibit/die';
 
 
 const styles = StyleSheet.create({
@@ -33,15 +32,28 @@ const styles = StyleSheet.create({
 
 });
 
+var sceneName = ' ';
+
 const reducerCreate = params=>{
     const defaultReducer = Reducer(params);
     return (state, action)=>{
-        console.log("ACTION:", action);
+        if (action.scene != undefined)
+        {
+          sceneName = action.scene.name;
+        }
         return defaultReducer(state, action);
     }
 };
 
-
+BackAndroid.addEventListener('hardwareBackPress', () => {
+  if (sceneName != 'homepage')
+  {
+    Actions.pop();
+    console.warn("BackAndroid");
+    return true;
+  }
+  return false;
+});
 
 // define this based on the styles/dimensions you use
 const getSceneStyle = function (/* NavigationSceneRendererProps */ props, computedProps) {
@@ -63,16 +75,11 @@ const getSceneStyle = function (/* NavigationSceneRendererProps */ props, comput
 
 export default class Mainview extends React.Component {
 
-  componentDidMount() {
-      BackAndroid.addEventListener('hardwareBackPress', function() {
-         if (true) { Actions.pop();
-           return true; }
-       return false; });
-  }
+
 
     render() {
         return <Router createReducer={reducerCreate} getSceneStyle={getSceneStyle}>
-            <Scene key="modal" component={Modal} >
+
                 <Scene key="root" hideNavBar hideTabBar>
                     <Scene key="welcome" component={Welcome} title="Welcome"  initial={true}/>
                     <Scene key="homepage" component={HomePage} title="Home" />
@@ -94,9 +101,8 @@ export default class Mainview extends React.Component {
                     <Scene key='item13' component={Item13} title="Item 13"/>
                     <Scene key='item14' component={Item14} title="Item 14"/>
                     <Scene key='item15' component={Item15} title="Item 15"/>
-                    <Scene key='die' component={die} title='die'/>
                 </Scene>
-            </Scene>
+
         </Router>;
     }
 }

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/exploded-aar/mainbuild/react-native-maps/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f37c0bb10cbca090b8c5363cd48b348a030e138f">
+        <dex dex="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/pre-dexed/debug/classes-bff08e1a8855a3d1515ef32d7beab6142c1d595f.jar" />
+    </item>
+    <item
+        jar="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/0.10.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="53880c6e24bb574c2f03fd0f743a268ccc502f45">
+        <dex dex="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/pre-dexed/debug/classes-f6e775a0458edb2626667b05088fee13752b9d6d.jar" />
+    </item>
+    <item
+        jar="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/exploded-aar/com.airbnb.android/react-native-maps/0.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5e4a092ee9fb926849eb4b55b1a21536fba56f13">
+        <dex dex="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/pre-dexed/debug/classes-2ce4caa530206f15b5c3a1ea72a76ced486b29c0.jar" />
+    </item>
+    <item
+        jar="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.10.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d323cf4983bdfce7136a1ce5e32710e1b36b20fe">
+        <dex dex="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/pre-dexed/debug/classes-c445b8dfa837cdad394fc78a088dfa8b9adc0be2.jar" />
+    </item>
+    <item
+        jar="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.27.1/jars/libs/infer-annotations-1.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="cf8913d42e36b1d1ca3440081c838f8c463b6b32">
+        <dex dex="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5-e67884f4876e6df7bce0f6cfc94047f87d3c568a.jar" />
+    </item>
+    <item
+        jar="/home/pandaman/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/pre-dexed/debug/okio-1.8.0-1c2c04775ffde322e7e443f4444155fd5412694f.jar" />
+    </item>
+    <item
+        jar="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/pre-dexed/debug/classes-4f6f39d31b105483e7c42d4aca1acd9cd4575b9b.jar" />
+    </item>
+    <item
+        jar="/home/pandaman/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.2.0/1ea229d6984444c8c58b8e97ba4c8429d9d135b3/okhttp-ws-3.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1ea229d6984444c8c58b8e97ba4c8429d9d135b3">
+        <dex dex="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-3.2.0-0b77abc83ca7f068e2dd6df15433ae28638e8eb9.jar" />
+    </item>
+    <item
+        jar="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/pre-dexed/debug/classes-904fc116187c12fcdf7277a090c653830ce3fd3a.jar" />
+    </item>
+    <item
+        jar="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.10.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6e1ed00013584399dbe27d45ac1fd6a9828c9fca">
+        <dex dex="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/pre-dexed/debug/classes-420937ad5d08e18b0b82440221ff32c4bae93c17.jar" />
+    </item>
+    <item
+        jar="/home/pandaman/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.2.0/6f8a4b1435c9e0a6f9c5fe4a1be46627b848fd0c/okhttp-urlconnection-3.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6f8a4b1435c9e0a6f9c5fe4a1be46627b848fd0c">
+        <dex dex="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.2.0-5e32e2d4d5fe590611b2bfcd179699afeff2cb8b.jar" />
+    </item>
+    <item
+        jar="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/pre-dexed/debug/classes-b5e9f571ff27c8c2186b4c1dd23d4da19976f8fe.jar" />
+    </item>
+    <item
+        jar="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/pre-dexed/debug/classes-5676faea2548620e7d7cdeb4e30c028089108005.jar" />
+    </item>
+    <item
+        jar="/home/pandaman/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1-48de7f966dc5a99893909b09d9a9ca57a22fda62.jar" />
+    </item>
+    <item
+        jar="/home/pandaman/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-baaf49d256c514c48ea6e7698aaabfb471e4dc4b.jar" />
+    </item>
+    <item
+        jar="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/pre-dexed/debug/classes-01dd1b63eeec41b84d6c09b120b7ffaa91411257.jar" />
+    </item>
+    <item
+        jar="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.27.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="bfc15bd6259de0bd224e88f805ccbb1c1fe44353">
+        <dex dex="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/pre-dexed/debug/classes-0d7569d96fe45bbcfb9021988840f142701d1e13.jar" />
+    </item>
+    <item
+        jar="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/exploded-aar/mainbuild/react-native-orientation/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="763cb213ebba6b34b1bbdbaf04a63d1555b50655">
+        <dex dex="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/pre-dexed/debug/classes-055e4eb84aa8a9375481d8a1339c77f80d22e3a9.jar" />
+    </item>
+    <item
+        jar="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.10.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="65f0c887ee1f57cd0ea65b228e39b7f35372b798">
+        <dex dex="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/pre-dexed/debug/classes-0834a95cf25c8b8f3a4a467e17ce25d6b217bd53.jar" />
+    </item>
+    <item
+        jar="/home/pandaman/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.3/1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14/jackson-core-2.2.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
+        <dex dex="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/pre-dexed/debug/jackson-core-2.2.3-04435bb1392421593eef49443fafff48e439bb6a.jar" />
+    </item>
+    <item
+        jar="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1-b6e397385fab0d242d8cb9ef01125d2ab43e7c1d.jar" />
+    </item>
+    <item
+        jar="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/exploded-aar/mainbuild/react-native-sound/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="783fb00f27e9a4fb59b0f15ce52c935ae32523c4">
+        <dex dex="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/pre-dexed/debug/classes-41f7301b6604a38da499d39073c855ed24d0f29e.jar" />
+    </item>
+    <item
+        jar="/home/pandaman/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.2.0/f7873a2ebde246a45c2a8d6f3247108b4c88a879/okhttp-3.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/pre-dexed/debug/okhttp-3.2.0-7e285eef68e06db73a5b300b82c18d32e7a25183.jar" />
+    </item>
+    <item
+        jar="/home/pandaman/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0-de00b66c617d7f60250957be850976ed3b6128a9.jar" />
+    </item>
+    <item
+        jar="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.10.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5e88a2a26ac71cd7f8fd8bd9f9381fa06d1a47a3">
+        <dex dex="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/pre-dexed/debug/classes-6644435cdf20284c5f9089993d6db9ecae408138.jar" />
+    </item>
+    <item
+        jar="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.10.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="857099e23430445aeb65cf703d5adf646ff280f1">
+        <dex dex="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/pre-dexed/debug/classes-7cfed2797fe7a3167d6f9e8bd02b6cf1722dd2e5.jar" />
+    </item>
+    <item
+        jar="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/exploded-aar/mainbuild/react-native-vector-icons/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1c39fbc2ceea46b5c79fbaec1dda6c948a37934e">
+        <dex dex="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/pre-dexed/debug/classes-d51eeb89dc6d0d7212742cdf9242a00e3f79f841.jar" />
+    </item>
+    <item
+        jar="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/exploded-aar/mainbuild/react-native-geocoder/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d6647b712ca25885b65aa09b343a113cf4dab742">
+        <dex dex="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/pre-dexed/debug/classes-fcf5ff0f6372bdcec7d789876249febfaf4038c5.jar" />
+    </item>
+    <item
+        jar="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/pre-dexed/debug/classes-72697c374abdf75ba59701a8c0c04450f9eee64f.jar" />
+    </item>
+    <item
+        jar="/home/pandaman/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/pre-dexed/debug/library-2.4.0-a34cb0de9446735936ffbd9c45d1e319cd763bab.jar" />
+    </item>
+    <item
+        jar="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/exploded-aar/mainbuild/react-native-audio-manager/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4352c6e7220e764305918d61efe8172dcc6e58de">
+        <dex dex="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/pre-dexed/debug/classes-02d10a07401820a92ea813fb9cd184aa311bc75b.jar" />
+    </item>
+    <item
+        jar="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/exploded-aar/mainbuild/react-native-orientation-listener/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="23b5c7bcf134733ce1ee8f9a927b7a1c2167306e">
+        <dex dex="/home/pandaman/Desktop/RN/hsinchu/testbuild/mainbuild/android/app/build/intermediates/pre-dexed/debug/classes-c64759eeeef1b04cac311158562fde6c141b3f49.jar" />
+    </item>
+
+</items>

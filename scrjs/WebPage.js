@@ -8,26 +8,41 @@ import ToolbarAndroid from 'ToolbarAndroid';
 var { width, height } = Dimensions.get('window');
 
 
-
 var WebPage = React.createClass({
   getInitialState() {
     return {
       DEFAULT_URL : 'http://www.post-hsinchu.com/',
-
+      exitApp:false,
 
     };
   },
 
+/*
+  componentDidMount() {
+      BackAndroid.addEventListener('hardwareBackPress', this._backAction);
+  },
 
+  componentWillUnmount(){
+    BackAndroid.removeEventListener('hardwareBackPress' , this._backAction);
+
+  },
+
+  _backAction(){
+      if (!this.state.exitApp) { Actions.pop();
+        console.warn('Web going back');
+        return true; }
+    return false;
+  },
+*/
 
   onActionSelected: function(position) {
     if (position === 0)
     {
-      Actions.pop();
+
       Actions.homepage();
     }
     if (position === 1) { // index of 'Settings'
-      Actions.pop();
+
       Actions.mappage();
     }
     if (position === 2)

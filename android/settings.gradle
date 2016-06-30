@@ -1,9 +1,22 @@
+<<<<<<< HEAD
+rootProject.name = 'mainbuild'
+=======
 rootProject.name = 'PostHsinchu'
+>>>>>>> 58b509e04256bbca86116b492e24e77f72fb34d0
 
 include ':app'
+include ':react-native-orientation-listener'
+project(':react-native-orientation-listener').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-orientation-listener/android')
+include ':react-native-orientation'
+project(':react-native-orientation').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-orientation/android')
+include ':react-native-audio-manager'
+project(':react-native-audio-manager').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-audio-manager/android')
+include ':react-native-vector-icons'
+project(':react-native-vector-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vector-icons/android')
 include ':react-native-sound'
 project(':react-native-sound').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-sound/android')
 include ':react-native-maps'
 project(':react-native-maps').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-maps/android')
 include ':react-native-geocoder'
 project(':react-native-geocoder').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-geocoder/android')
+

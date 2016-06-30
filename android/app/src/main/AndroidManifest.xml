@@ -1,10 +1,15 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
+    package="com.mainbuild"
+=======
     package="com.zhelang.posthsinchu"
+>>>>>>> 58b509e04256bbca86116b492e24e77f72fb34d0
     android:versionCode="1"
     android:versionName="1.0">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <uses-sdk
         android:minSdkVersion="16"
@@ -25,6 +30,12 @@
         </intent-filter>
       </activity>
       <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+
+          <meta-data
+        android:name="com.google.android.geo.API_KEY"
+        android:value="AIzaSyBAlYTTB3rRtuL_nz0Km-PTyxkymxowrZY"/>
+
+
     </application>
 
 </manifest>

@@ -55,7 +55,7 @@ export default class extends React.Component {
         return (
             <Animated.View style={[styles.container, {backgroundColor:"rgba(52,52,52,0.5)"},
                                   {transform: [{translateY: this.state.offset}]}]}>
-                <TouchableOpacity onPress={this.closeModal.bind(this)}>
+
                     <View style={{  width:deviceWidth,
                                     height:deviceHeight,
                                     justifyContent: "center",
@@ -64,7 +64,7 @@ export default class extends React.Component {
                         <Image style={{width:deviceWidth,height:deviceHeight,resizeMode:'contain',backgroundColor:'#12183C'}} source={require('./components/welcome.png')}></Image>
 
                     </View>
-                </TouchableOpacity>
+                
             </Animated.View>
         );
     }

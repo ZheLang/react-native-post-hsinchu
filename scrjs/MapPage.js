@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Text, StyleSheet, Animated, Dimensions, TouchableOpacity, ListView,} from "react-native";
+import {View, Text, StyleSheet, Animated, Dimensions, TouchableOpacity, ListView,BackAndroid} from "react-native";
 import Button from "react-native-button";
 import {Actions} from "react-native-router-flux";
 import ItemCell from 'react-native-item-cell';
@@ -33,6 +33,7 @@ var MapPage = React.createClass({
         latitudeDelta: LATITUDE_DELTA,
         longitudeDelta: LONGITUDE_DELTA,
       },
+      exitApp:false,
       markers: [
                   {
                     id:1,
@@ -176,9 +177,6 @@ var MapPage = React.createClass({
     };
   },
 
-  componentDidMount() {
-    Actions.refresh();
-  },
 
 
   render() {

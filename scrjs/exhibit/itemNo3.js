@@ -42,7 +42,7 @@ var Item3 = React.createClass({
       {
         var orientationText = this.state.orientationText;
         orientationText = orientation;
-        if (height > width)
+        if (height < width)
         {
             this.setState({deviceHeight:width , deviceWidth:height})
         }
@@ -52,7 +52,7 @@ var Item3 = React.createClass({
       {
         var orientationText = this.state.orientationText;
         orientationText = orientation;
-        if (height < width)
+        if (height > width)
         {
             this.setState({deviceHeight:width , deviceWidth:height})
         }
@@ -281,7 +281,7 @@ var Item3 = React.createClass({
                             />
 
         <ScrollView style={{height: deviceHeight+300}}>
-            <View style={{flex:1,backgroundColor:'#f4f4f4',borderWidth:15,borderColor:'#FFFFFF'}}>
+            <View style={{flex:1 ,height:deviceHeight-60,backgroundColor:'#f4f4f4',borderWidth:15,borderColor:'#FFFFFF'}}>
 
                 <View style={{flexDirection:'row'}}>
                   <View style={{flex:1}}>
@@ -365,6 +365,7 @@ var styles = StyleSheet.create({
     fontSize:12,
     textAlign:'left',
     color:'#858484',
+    marginTop:10,
     marginHorizontal:15,
     marginBottom:15,
   },

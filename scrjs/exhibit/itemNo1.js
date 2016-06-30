@@ -43,7 +43,7 @@ var Item1 = React.createClass({
       {
         var orientationText = this.state.orientationText;
         orientationText = orientation;
-        if (height > width)
+        if (height < width)
         {
             this.setState({deviceHeight:width , deviceWidth:height})
         }
@@ -53,7 +53,7 @@ var Item1 = React.createClass({
       {
         var orientationText = this.state.orientationText;
         orientationText = orientation;
-        if (height < width)
+        if (height > width)
         {
             this.setState({deviceHeight:width , deviceWidth:height})
         }
@@ -366,6 +366,7 @@ var styles = StyleSheet.create({
     fontSize:12,
     textAlign:'left',
     color:'#858484',
+    marginTop:10,
     marginHorizontal:15,
     marginBottom:15,
   },

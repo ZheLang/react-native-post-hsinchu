@@ -4,4 +4,6 @@ local.properties
 .gradle
 Logs
 log
-build
+android/app/build
+fileSnapshots
+*~

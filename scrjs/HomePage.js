@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Text, StyleSheet, Animated, Dimensions, Image,TouchableOpacity, ListView,ScrollView} from "react-native";
+import {View, Text, StyleSheet, Animated, Dimensions, Image,TouchableOpacity, ListView,ScrollView,BackAndroid} from "react-native";
 import Button from "react-native-button";
 import {Actions} from "react-native-router-flux";
 import ItemCell from 'react-native-item-cell';
@@ -28,11 +28,30 @@ var HomePage = React.createClass({
       rowHasChanged: (r1, r2) => r1 !== r2
     });
     return {
+      exitApp:true,
       ds: dataSource.cloneWithRows(itemsArray),
       contentText:'百年城市新竹，從1910年代進行現代化的硬體建設，累積深厚的文化藝術底蘊，陪伴無數的新竹人成長，也包容許多移居來此的新市民。現任市府團隊極力推動火車站後發展，動物園、玻璃工藝博物館將整合為未來的「1916園區」，作為園區即將開幕的前哨，「後新竹－新竹市國際地景藝術節」邀請國內外知名的地景藝術家，在站後用優美的藝術作品點亮被遺忘的美好時代，引導來往民眾漫步在藝術的分為內，也對未來的「1916園區」有更高的期待。',
     };
   },
 
+/*
+  componentDidMount() {
+      Actions.refresh();
+      BackAndroid.addEventListener('hardwareBackPress', this._backAction);
+  },
+
+  componentWillUnmount(){
+    BackAndroid.removeEventListener('hardwareBackPress' , this._backAction);
+  },
+
+  _backAction(){
+      if (this.state.exitApp == true){console.warn('FUCK');
+                                      return true;}
+      if (!this.state.exitApp) { Actions.pop();
+        return true; }
+    return true;
+  },
+*/
   _renderRow: function(rowData, sectionID, rowID, highlightRow) {
 
 
@@ -82,10 +101,12 @@ var HomePage = React.createClass({
 
   onActionSelected: function(position) {
     if (position === 1) { // index of 'Settings'
+
       Actions.mappage();
     }
     if (position === 2)
     {
+
       Actions.webpage();
     }
   },
@@ -108,6 +129,28 @@ var HomePage = React.createClass({
       {title: 'Web', icon:require('./components/ic_web_normal@2x.png'), show: 'always'},
     ];
 
+    var rand = Math.floor(Math.random() * 15);
+
+    randImgArray =[
+      require('./exhibit/components/01@2x.jpg'),
+      require('./exhibit/components/02@2x.jpg'),
+      require('./exhibit/components/03@2x.jpg'),
+      require('./exhibit/components/04@2x.jpg'),
+      require('./exhibit/components/05.jpg'),
+      require('./exhibit/components/06.jpg'),
+      require('./exhibit/components/07.jpg'),
+      require('./exhibit/components/08.jpg'),
+      require('./exhibit/components/09.jpg'),
+      require('./exhibit/components/10.jpg'),
+      require('./exhibit/components/11.jpg'),
+      require('./exhibit/components/12.jpg'),
+      require('./exhibit/components/13.jpg'),
+      require('./exhibit/components/14.jpg'),
+      require('./exhibit/components/15.jpg'),
+    ];
+
+    var randImg = randImgArray[rand];
+
     return (
       <View style={{flex:1}}>
 
@@ -120,13 +163,14 @@ var HomePage = React.createClass({
 
            <ScrollView style={{height: deviceHeight+300}}>
               <View style={{flex:1,backgroundColor:'#ffffff' ,borderWidth:15,borderColor:'#FFFFFF'}}>
+                <Image style={styles.randImg} source={randImg}/>
                 <Text style={styles.content}>{this.state.contentText}</Text>
               </View>
            </ScrollView>
 
            <View style={{flexDirection:'row',alignItems:'center',justifyContent:'center'}}>
               <TouchableOpacity onPress={Actions.mappage}>
-                  <Image style={styles.img}  source={require('./components/btn_take_a_look@2x.png')}></Image>
+                  <Image style={styles.btn_to_map}  source={require('./components/btn_take_a_look@2x.png')}></Image>
               </TouchableOpacity>
            </View>
       </View>
@@ -153,7 +197,15 @@ var styles = StyleSheet.create({
     marginTop:10,
     marginBottom:0,
   },
-  img:{
+  randImg:{
+    width:deviceWidth - 60,
+    height: (deviceWidth - 60) / 2,
+    marginTop:15,
+    marginBottom:5,
+    margin:15,
+    resizeMode:'cover',
+  },
+  btn_to_map:{
     width: 200,
     height: 44,
     marginTop:25,
